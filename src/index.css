@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-formal: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-navy-dark: #03111D;
+  --color-navy-deep: #061827;
+  --color-navy-card: #0A2033;
+  --color-navy-light: #0E2B45;
+
+  --color-cream-light: #FBF5E8;
+  --color-cream-warm: #F5EBD5;
+  --color-cream-muted: #EADBC0;
+
+  --color-gold: #D7A52B;
+  --color-gold-soft: #E7C76A;
+  --color-gold-pale: #F4E4AF;
+  --color-gold-dark: #B88A1F;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #03111D;
+  color: #111820;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #03111D;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7A52B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E7C76A;
+}
+
+/* Hide scrollbar for carousel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Paper Deckled Edge Mask */
+.torn-edge-mask {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 40' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L0,22 Q30,35 60,18 T120,28 T180,12 T240,32 T300,18 T360,26 T420,10 T480,34 T540,16 T600,30 T660,14 T720,32 T780,12 T840,30 T900,18 T960,34 T1020,16 T1080,28 T1140,14 L1200,24 L1200,40 L0,40 Z' fill='%23000'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 40' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L0,22 Q30,35 60,18 T120,28 T180,12 T240,32 T300,18 T360,26 T420,10 T480,34 T540,16 T600,30 T660,14 T720,32 T780,12 T840,30 T900,18 T960,34 T1020,16 T1080,28 T1140,14 L1200,24 L1200,40 L0,40 Z' fill='%23000'/%3E%3C/svg%3E");
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+}
+
+/* Subtle Parchment Texture */
+.bg-parchment {
+  background-color: #FBF5E8;
+  background-image: 
+    radial-gradient(#d7a52b0a 1px, transparent 1px),
+    radial-gradient(#00000005 1px, transparent 1px);
+  background-size: 24px 24px, 12px 12px;
+  background-position: 0 0, 6px 6px;
+}
+
+/* Gold Gradient Text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F4E4AF 0%, #D7A52B 50%, #B88A1F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gold Button Hover Shimmer */
+.btn-gold {
+  background-color: #D7A52B;
+  color: #03111D;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-gold:hover {
+  background-color: #E7C76A;
+  box-shadow: 0 0 20px rgba(215, 165, 43, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+  border: 1px solid #D7A52B;
+  color: #D7A52B;
+  background: transparent;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-outline-gold:hover {
+  background-color: #D7A52B;
+  color: #03111D;
+  box-shadow: 0 0 16px rgba(215, 165, 43, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-outline-cream {
+  border: 1px solid rgba(215, 165, 43, 0.6);
+  color: #03111D;
+  background: transparent;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-outline-cream:hover {
+  background-color: #03111D;
+  color: #FBF5E8;
+  border-color: #03111D;
+  transform: translateY(-2px);
+}

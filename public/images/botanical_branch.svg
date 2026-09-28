@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 480" fill="none">
+  <!-- Main Stem -->
+  <path d="M40,10 Q25,120 45,240 T35,380 Q45,430 30,470" stroke="#7A8768" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Leaf 1 Top Left -->
+  <path d="M40,30 C20,20 10,40 18,55 C26,70 38,45 40,30 Z" fill="#606F4E" />
+  <path d="M40,30 Q26,45 18,55" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 2 Top Right -->
+  <path d="M38,50 C55,35 70,50 65,68 C60,86 45,65 38,50 Z" fill="#6B7B58" />
+  <path d="M38,50 Q55,60 65,68" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 3 -->
+  <path d="M34,95 C12,85 5,110 15,125 C25,140 35,110 34,95 Z" fill="#586646" />
+  <path d="M34,95 Q20,110 15,125" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 4 -->
+  <path d="M37,115 C58,100 78,115 72,135 C66,155 45,130 37,115 Z" fill="#687854" />
+  <path d="M37,115 Q58,125 72,135" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 5 -->
+  <path d="M41,165 C18,155 8,180 20,200 C32,220 42,185 41,165 Z" fill="#606F4E" />
+  <path d="M41,165 Q25,185 20,200" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 6 -->
+  <path d="M44,185 C68,170 90,190 82,212 C74,234 52,205 44,185 Z" fill="#71825E" />
+  <path d="M44,185 Q68,200 82,212" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 7 -->
+  <path d="M43,240 C16,230 10,260 22,280 C34,300 45,260 43,240 Z" fill="#5A6848" />
+  <path d="M43,240 Q25,260 22,280" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 8 -->
+  <path d="M42,260 C65,245 88,265 80,288 C72,310 50,280 42,260 Z" fill="#687854" />
+  <path d="M42,260 Q65,275 80,288" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 9 -->
+  <path d="M38,315 C14,305 6,335 18,355 C30,375 40,335 38,315 Z" fill="#606F4E" />
+  <path d="M38,315 Q22,335 18,355" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 10 -->
+  <path d="M37,335 C60,320 82,340 75,362 C68,384 46,355 37,335 Z" fill="#71825E" />
+  <path d="M37,335 Q60,350 75,362" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 11 Bottom -->
+  <path d="M34,395 C12,385 4,415 16,435 C28,455 38,415 34,395 Z" fill="#586646" />
+  <path d="M34,395 Q20,415 16,435" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Leaf 12 Bottom Right -->
+  <path d="M32,415 C54,400 75,420 68,440 C61,460 40,435 32,415 Z" fill="#687854" />
+  <path d="M32,415 Q54,430 68,440" stroke="#D7A52B" stroke-width="0.8" opacity="0.6" />
+</svg>
